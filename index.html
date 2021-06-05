@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Tính Tiền Lương Nhân Viên -->
+    <section style="text-align: center; font-size: 20px;">
+        <h1>Tính Tiền Lương Nhân Viên</h1>
+        <input style="font-size: 20px;" id="days" type="text" placeholder="Số Ngày Làm">
+        <button style="font-size: 20px;" id="btn-tinhTien">Tính Tiền</button>
+        <div id="tienLuong" style="display: none;">
+            <small>Lương Nhân Viên Là :</small>
+            <span id="spanTienLuong">0</span>
+            <sup>VND</sup>  
+        </div>
+    </section><br><br>
+    <hr><br>
+
+    <!-- Tính Giá Trị Trung Bình -->
+    <section style="text-align: center; font-size: 20px;">
+        <h1>Tính Giá Trị Trung Bình</h1>
+        <input style="font-size: 20px;" type="text" id="soThuc1" placeholder="Nhập vào số thực">
+        <input style="font-size: 20px;" type="text" id="soThuc2" placeholder="Nhập vào số thực">
+        <input style="font-size: 20px;" type="text" id="soThuc3" placeholder="Nhập vào số thực">
+        <input style="font-size: 20px;" type="text" id="soThuc4" placeholder="Nhập vào số thực">
+        <input style="font-size: 20px;" type="text" id="soThuc5" placeholder="Nhập vào số thực">
+        <button style="font-size: 20px;" id="btn-tinhTrungBinh">Giá Trị Trung Bình</button>
+        <div id="giaTriTrungBinh" style="display: none;">
+            <small>Giá Trị Trung Bình Là :</small>
+            <span id="spanGiaTriTrungBinh">0</span>
+        </div>
+    </section><br><br>
+    <hr><br>
+
+    <!-- Quy Đổi Tiền -->
+    <section style="text-align: center; font-size: 20px;">
+        <h1>Quy Đổi Tiền</h1>
+        <input style="font-size: 20px;" id="soTien" type="text" placeholder="Số Tiền (USD)">
+        <button style="font-size: 20px;" id="btn-doiTien">Quy Đổi Tiền</button>
+        <div id="doiTien" style="display: none;">
+            <small>Số Tiền Đã Quy Đổi Là :</small>
+            <span id="spanDoiTien">0</span>
+            <sup>VND</sup>  
+        </div>
+    </section><br><br>
+    <hr><br>
+
+    <!-- Tính Diện Tích, Chu Vi Hình Chữ Nhật -->
+    <section style="text-align: center; font-size: 20px;">
+        <h1>Tính Diện Tích, Chu Vi Hình Chữ Nhật</h1>
+        <input style="font-size: 20px;" type="text" id="chieuDai" placeholder="Chiều Dài HCN">
+        <input style="font-size: 20px;" type="text" id="chieuRong" placeholder="Chiều Rộng HCN">
+        <button style="font-size: 20px;" id="btn-tinhDienTich">Tính Ngay</button>
+        <div id="dienTich" style="display: none;">
+            <small>Diện Tích Hình Chữ Nhật Là :</small>
+            <span id="spanDienTich">0</span>
+        </div>
+        <div id="chuVi" style="display: none;">
+            <small>Chu Vi Hình Chữ Nhật Là :</small>
+            <span id="spanChuVi">0</span>
+        </div>
+    </section><br><br>
+    <hr><br>
+
+    <!-- Tính Tổng 2 Ký Số -->
+    <section style="text-align: center; font-size: 20px;">
+        <h1>Tính Tổng 2 Ký Số</h1>
+        <input style="font-size: 20px;" type="text" id="kySo" placeholder="Nhập 1 số có 2 chữ số">
+        <button style="font-size: 20px;" id="btn-tinhTong">Tổng 2 Ký Số</button>
+        <div id="tongKySo" style="display: none;">
+            <small>Tổng 2 Ký Số Là :</small>
+            <span id="spanTongKySo">0</span>
+        </div>
+    </section><br><br>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
